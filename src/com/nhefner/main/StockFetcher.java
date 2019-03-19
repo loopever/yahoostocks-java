@@ -39,7 +39,7 @@ public class StockFetcher {
 			
 			// Retrieve CSV File
 			//URL yahoo = new URL("http://finance.yahoo.com/d/quotes.csv?s="+ symbol + "&f=l1vr2ejkghm3j3nc4s7pox");
-			URL yahoo = new URL("http://download.finance.yahoo.com/d/quotes.csv?s="+ symbol + "&f=l1vr2ejkghm3j3nc4s7pox");
+			URL yahoo = new URL("http://1download.finance.yahoo.com/d/quotes.csv?s="+ symbol + "&f=l1vr2ejkghm3j3nc4s7pox");
 			URLConnection connection = yahoo.openConnection();
 			InputStreamReader is = new InputStreamReader(connection.getInputStream());
 			BufferedReader br = new BufferedReader(is);  
